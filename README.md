@@ -2,6 +2,10 @@
 
 This is the frontend of the **Parent-Teacher Collaboration Platform**, built using **React, TypeScript, and Material-UI (MUI)**. It provides a user-friendly interface for parents, teachers, and administrators to collaborate effectively.
 
+## Backend App Link
+[PTCP Backend App](https://github.com/vinodjatav/ptcp-backend-app)  
+
+
 ## 🚀 Features
 
 ✅ **User Authentication** - Secure login with JWT authentication  
@@ -23,7 +27,17 @@ This is the frontend of the **Parent-Teacher Collaboration Platform**, built usi
 
 ## 🔧 Setup & Installation
 
-1️⃣ Clone the repository  
+1️⃣ Clone the frontend repository  
 ```sh
 git clone https://github.com/vinodjatav/ptcp-frontend-app.git
 cd ptcp-frontend-app
+npm i
+npm start
+```
+2️⃣ Clone the backend repository  
+```sh
+git clone https://github.com/vinodjatav/ptcp-backend-app.git
+cd ptcp-backend-app
+# Build and run the backend application  
+./mvnw clean install  
+./mvnw spring-boot:run 
